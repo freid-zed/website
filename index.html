@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>A Basic HTML5 Template</title>
+  <title>Feedback Form Tester</title>
   <meta name="description" content="A simple HTML5 Template for new projects.">
   <meta name="author" content="SitePoint">
 
@@ -24,7 +24,32 @@
 </head>
 
 <body>
-  <!-- your content here... -->
+  <h1>Feedback form</h1>
+  
+  <form action="http://www.formbuddy.com/cgi-bin/form.pl" method="post">
+  <input type="hidden" name="username" value="frederickreid">
+  <input type="hidden" name="reqd" value="0">
+  <input type="hidden" name="url" value="https://frederickreid.netlify.app/thanks.html">
+
+
+  <table border="0">
+  <tr>
+  <td align="right"><b>Name:</b>
+  <td><input type="text" name="visitor_name" size="36" maxlength="100">
+  </tr>
+  <tr>
+  <td align="right"><b>E-Mail:</b>
+  <td><input type="text" name="e-mail" size="36" maxlength="100">
+  </tr>
+  </table>
+
+
+  <p><b>Comments/Suggestions</b>
+  <br><textarea name="comments" rows="5" cols="36">
+  </textarea>
+  <p><input type="submit" value="Submit Form"><input type="reset" value="Reset Form">
+  </form>
+
   <script src="js/scripts.js"></script>
 </body>
 </html>
