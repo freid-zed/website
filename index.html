@@ -26,28 +26,32 @@
 <body>
   <h1>Feedback form</h1>
   
-  <form action="http://www.formbuddy.com/cgi-bin/form.pl" method="post">
-  <input type="hidden" name="username" value="frederickreid">
-  <input type="hidden" name="reqd" value="0">
-  <input type="hidden" name="url" value="https://frederickreid.netlify.app/thanks.html">
+  <center>
+    <table border="0" cellpadding="2" cellspacing="0">
 
-  <table border="0">
-  <tr>
-  <td align="right"><b>Name:</b>
-  <td><input type="text" name="visitor_name" size="36" maxlength="100">
-  </tr>
-  <tr>
-  <td align="right"><b>E-Mail:</b>
-  <td><input type="text" name="e-mail" size="36" maxlength="100">
-  </tr>
-  </table>
+    <!-- REQUIRED: This form tag must appear exactly as follows: -->
+    <form method="POST" action="https://fp1.formmail.com/cgi-bin/fm192">
 
-  <p><b>Comments/Suggestions</b>
-  <br><textarea name="comments" rows="5" cols="36">
-  </textarea>
-  <p><input type="submit" value="Submit Form"><input type="reset" value="Reset Form">
-  </form>
+    <!-- REQUIRED: Supply your plan, form processor and recipients -->
+    <input type="hidden" name="_pid" value="157716">
+    <input type="hidden" name="_fid" value="DY3IRC43">
+    <input type="hidden" name="recipient" value="1">
 
+    <!-- OPTIONAL: The following two fields will appear in the From: line -->
+    <tr><td><b>Your Name:</b> </td>
+    <td><input type="text" name="realname" size=40></td></tr>
+    <tr><td><b>Your E-Mail:</b> </td>
+    <td><input type="text" name="email" size=40></td></tr>
+    <!-- OPTIONAL: Any extra fields you include will appear in message body: -->
+    <tr><td valign="top"><b>Your Comments:</b> </td>
+    <td><textarea rows="4" cols="40" name="comments"></textarea></tr>
+
+    <tr><td colspan="2" align="right">
+    <input type="submit" value="Send Us Your Comments"></td></tr>
+    </form>
+    </table>
+  </center>
+  
   <script src="js/scripts.js"></script>
 </body>
 </html>
