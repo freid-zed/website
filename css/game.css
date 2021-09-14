@@ -12,7 +12,8 @@
   vertical-align: middle;
   font-family: monospace;
   font-size: 200%;
-  padding: 10px;}
+  color: GhostWhite;
+  padding: 30px;}
 .tile {
   width: 270px;
   height: 270px;
