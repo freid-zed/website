@@ -1,7 +1,8 @@
 .board {
   width: 1024px;
   height: 1024px;
-  background-image: url("/images/wood-pattern-parquet-floor-tiles.jpg");}
+  background-image: url("/images/wood-pattern-parquet-floor-tiles.jpg");
+  border-radius: 10px;}
 .board>table {
   margin-top: auto;
   margin-right: auto;
