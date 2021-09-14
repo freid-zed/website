@@ -18,7 +18,9 @@
   width: 270px;
   height: 270px;
   background-size: 270px;
-  background-color: AliceBlue;}
+  background-color: AliceBlue;
+  border-width: thick;
+  border-style: inset;}
 .A1:hover {
   background-image: url("/images/octagon.png");}
 .A2:hover {
