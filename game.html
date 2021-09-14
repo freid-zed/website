@@ -69,22 +69,25 @@
   </div>
   
   <form name="game" method="POST" data-netlify="true" action="/thanks.html">
-    <input type="hidden" name="play" value="game" />
-    <p>
-      <label>Where are the squares? <input type="text" name="square-1" size="2" maxlength="2" /></label>
-      <input type="text" name="square-2" size="2" maxlength="2" />
-    </p>
-    <p>
-      <label>Where are the circles? <input type="text" name="circle-1" size="2" maxlength="2" /></label>
-      <input type="text" name="circle-2" size="2" maxlength="2" />
-    </p>
-    <p>
-      <label>Where are the triangles? <input type="text" name="triangle-1" size="2" maxlength="2" /></label>
-      <input type="text" name="triangle-2" size="2" maxlength="2" />
-    </p>
-    <p>
-      <button type="submit">Send</button>
-    </p>
+    <fieldset>
+      <legend>What's your play?</legend>
+      <input type="hidden" name="play" value="game" />
+      <p class="play">
+        <label>Where are the squares? <input type="text" name="square-1" size="2" maxlength="2" /></label>
+        <input type="text" name="square-2" size="2" maxlength="2" />
+      </p>
+      <p class="play">
+        <label>Where are the circles? <input type="text" name="circle-1" size="2" maxlength="2" /></label>
+        <input type="text" name="circle-2" size="2" maxlength="2" />
+      </p>
+      <p class="play">
+        <label>Where are the triangles? <input type="text" name="triangle-1" size="2" maxlength="2" /></label>
+        <input type="text" name="triangle-2" size="2" maxlength="2" />
+      </p>
+      <p class="submit">
+        <button type="submit">Send</button>
+      </p>
+    </fieldset>
   </form>
 
 <!--
