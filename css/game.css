@@ -3,4 +3,20 @@
   height: 270px;
   background-size: 270px;}
 .A1 {
+  background-image: url("/images/rhombus.png");}
+.A2 {
   background-image: url("/images/square.png");}
+.A3 {
+  background-image: url("/images/circle.png");}
+.B1 {
+  background-image: url("/images/triangle.png");}
+.B2 {
+  background-image: url("/images/hexagon.png");}
+.B3 {
+  background-image: url("/images/square.png");}
+.C1 {
+  background-image: url("/images/circle.png");}
+.C2 {
+  background-image: url("/images/triangle.png");}
+.C3 {
+  background-image: url("/images/pentagon.png");}
