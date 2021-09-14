@@ -2,25 +2,21 @@
   width: 270px;
   height: 270px;
   background-size: 270px;}
-td {
-  visibility: hidden;}
-td:hover {
-  visibility: visible;}
-.A1 {
+.A1:hover {
   background-image: url("/images/octagon.png");}
-.A2 {
+.A2:hover {
   background-image: url("/images/square.png");}
-.A3 {
+.A3:hover {
   background-image: url("/images/circle.png");}
-.B1 {
+.B1:hover {
   background-image: url("/images/triangle.png");}
-.B2 {
+.B2:hover {
   background-image: url("/images/hexagon.png");}
-.B3 {
+.B3:hover {
   background-image: url("/images/square.png");}
-.C1 {
+.C1:hover {
   background-image: url("/images/circle.png");}
-.C2 {
+.C2:hover {
   background-image: url("/images/triangle.png");}
-.C3 {
+.C3:hover {
   background-image: url("/images/pentagon.png");}
