@@ -41,7 +41,7 @@
   background-image: url("/images/triangle.png");}
 .C3:hover {
   background-image: url("/images/pentagon.png");}
-.play .submit {
+.play, .submit {
   font-family: monospace;
   font-size: 125%;}
 fieldset {
