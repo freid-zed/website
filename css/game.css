@@ -13,12 +13,13 @@
   font-family: monospace;
   font-size: 200%;
   color: GhostWhite;
-  padding: 30px;}
+  padding: 24px;}
 .tile {
   width: 270px;
   height: 270px;
   background-size: 270px;
   background-color: AliceBlue;
+  border-color: rgba(90,45,31,0.5);
   border-width: thick;
   border-style: inset;}
 .A1:hover {
