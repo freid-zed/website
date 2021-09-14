@@ -1,3 +1,7 @@
+.board {
+  width: 1024px;
+  height: 1024px;
+  background-image: url("/images/wood-pattern-parquet-floor-tiles.jpg");}
 .heading {
   text-align: center;
   vertical-align: middle;
