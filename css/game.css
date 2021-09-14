@@ -1,6 +1,6 @@
 .tile {
   width: 270px;
-  height: 270px;}
+  height: 270px;
+  background-size: 270px;}
 .A1 {
-  background-image: url("/images/square.png");
-  background-color: #c3e6e5;}
+  background-image: url("/images/square.png");}
