@@ -1,9 +1,10 @@
 .tile {
   width: 270px;
   height: 270px;
-  background-size: 270px;
+  background-size: 270px;}
+td {
   visibility: hidden;}
-.tile:hover {
+td:hover {
   visibility: visible;}
 .A1 {
   background-image: url("/images/octagon.png");}
