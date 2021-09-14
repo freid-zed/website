@@ -57,13 +57,16 @@
   
   <form name="game" method="POST" data-netlify="true" action="/thanks.html">
     <p>
-      <label>Where are the squares? <input type="text" name="square-1" /><input type="text" name="square-2" /></label>   
+      <label>Where are the squares? <input type="text" name="square-1" size="2" maxlength="2" /></label>
+      <input type="text" name="square-2" size="2" maxlength="2" />
     </p>
     <p>
-      <label>Where are the circles? <input type="email" name="email" /></label>
+      <label>Where are the circles? <input type="text" name="circle-1" size="2" maxlength="2" /></label>
+      <input type="text" name="circle-2" size="2" maxlength="2" />
     </p>
     <p>
-      <label>Where are the triangles? <textarea name="message"></textarea></label>
+      <label>Where are the triangles? <input type="text" name="triangle-1" size="2" maxlength="2" /></label>
+      <input type="text" name="triangle-2" size="2" maxlength="2" />
     </p>
     <p>
       <button type="submit">Send</button>
