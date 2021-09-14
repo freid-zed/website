@@ -41,6 +41,9 @@
   background-image: url("/images/triangle.png");}
 .C3:hover {
   background-image: url("/images/pentagon.png");}
+.play {
+  font-family: monospace;
+  font-size: 150%;}
 fieldset {
   width: 350px;
   border: 1px solid #dcdcdc;
